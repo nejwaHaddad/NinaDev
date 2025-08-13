@@ -64,24 +64,15 @@
             </div>
         </div>
     </section>
-
-    <!-- ======== SECTION CONTACT ======== -->
-  <!-- modify this form HTML and place wherever you want your form -->
-<form
-  action="https://formspree.io/f/xvgqlvvb"
-  method="POST"
->
-  <label>
-    Your email:
-    <input type="email" name="email">
-  </label>
-  <label>
-    Your message:
-    <textarea name="message"></textarea>
-  </label>
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
+<section id="contact" class="section-contact">
+        <h2>Contact</h2>
+        <form id="contact-form">
+            <input type="text" placeholder="Votre nom" required>
+            <input type="email" placeholder="Votre email" required>
+            <textarea placeholder="Votre message" required></textarea>
+            <button type="submit" class="btn">Envoyer</button>
+        </form>
+    </section>
     <!-- ======== FOOTER ======== -->
     <footer>
         <p>© 2025 Mon Portfolio. Tous droits réservés.</p>
@@ -91,4 +82,5 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
