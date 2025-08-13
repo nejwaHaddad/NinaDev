@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio personnel - Développeur Web">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/profile.jpg" type="image/png">
+</head>
+
+<body>
+
+    <!-- ======== HEADER ======== -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">Dev<span>Nina</span></div>
+            <ul class="nav-links">
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#apropos">À propos</a></li>
+                <li><a href="#projets">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+        </nav>
+    </header>
+
+    <!-- ======== SECTION ACCUEIL ======== -->
+    <section id="accueil" class="section-accueil">
+        <div class="intro">
+            <h1>salut <span id="typed-text"></span></h1>
+            <p> je suis Nedjwa Haddad et je crée des solutions interactives au design soigné.</p>
+            <a href="#projets" class="btn">Voir mes projets</a>
+        </div>
+        <div class="image-container">
+            <img src="assets/profile.jpg" alt="Photo de profil">
+        </div>
+    </section>
+
+    <!-- ======== SECTION À PROPOS ======== -->
+    <section id="apropos" class="section-apropos">
+        <h2>À propos</h2>
+        <p>
+            Je suis un développeur web spécialisé en JavaScript, HTML, CSS, et j’adore travailler sur des projets créatifs.
+            Mon objectif est de créer des interfaces attrayantes, optimisées et faciles à utiliser.
+        </p>
+    </section>
+
+    <!-- ======== SECTION PROJETS ======== -->
+    <section id="projets" class="section-projets">
+        <h2>Mes Projets</h2>
+        <div class="projets-container">
+            <div class="carte-projet">
+                <img src="assets/project1.png" alt="Projet 1">
+                <h3>Projet 1</h3>
+                <p>Description rapide du projet.</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
+            <div class="carte-projet">
+                <img src="assets/project2.png" alt="Projet 2">
+                <h3>Projet 2</h3>
+                <p>Description rapide du projet.</p>
+                <a href="#" target="_blank">Voir le projet</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ======== SECTION CONTACT ======== -->
+  <!-- modify this form HTML and place wherever you want your form -->
+<form
+  action="https://formspree.io/f/xvgqlvvb"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+    <!-- ======== FOOTER ======== -->
+    <footer>
+        <p>© 2025 Mon Portfolio. Tous droits réservés.</p>
+        <button id="btn-top">↑</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
